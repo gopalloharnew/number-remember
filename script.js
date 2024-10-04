@@ -60,7 +60,7 @@ function start() {
 function positionCards(cards) {
   const containerRect = container.getBoundingClientRect();
   const vmin = Math.min(containerRect.width, containerRect.height) / 100;
-  const radius = 4 * vmin;
+  const radius = 5 * vmin;
   const positions = [];
 
   cards.forEach((card) => {
